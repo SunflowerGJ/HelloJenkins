@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CATransitionViewController.h
 //  GJAnimationDemo
 //
 //  Created by GJ on 16/3/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CATransitionViewController : UIViewController
 
 @end
-
