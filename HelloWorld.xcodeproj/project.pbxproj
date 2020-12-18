@@ -14,6 +14,14 @@
 		3227FDC9258B084F00ED046A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3227FDC8258B084F00ED046A /* Assets.xcassets */; };
 		3227FDCC258B084F00ED046A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3227FDCA258B084F00ED046A /* LaunchScreen.storyboard */; };
 		3227FDCF258B084F00ED046A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3227FDCE258B084F00ED046A /* main.m */; };
+		3227FDE6258C3FDC00ED046A /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3227FDE4258C3FDC00ED046A /* 01.jpg */; };
+		3227FDE7258C3FDC00ED046A /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3227FDE5258C3FDC00ED046A /* 02.jpg */; };
+		3227FDEF258C3FE800ED046A /* CAAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3227FDEA258C3FE800ED046A /* CAAnimationViewController.m */; };
+		3227FDF0258C3FE800ED046A /* CATransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3227FDEB258C3FE800ED046A /* CATransitionViewController.m */; };
+		3227FDF1258C3FE800ED046A /* GJAnimationDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3227FDED258C3FE800ED046A /* GJAnimationDemo.xcdatamodeld */; };
+		3227FDF7258C3FF700ED046A /* NFCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3227FDF2258C3FF600ED046A /* NFCManager.m */; };
+		3227FDF8258C3FF700ED046A /* NFCScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3227FDF4258C3FF700ED046A /* NFCScanViewController.m */; };
+		3227FDF9258C3FF700ED046A /* NFCScanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3227FDF6258C3FF700ED046A /* NFCScanViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +37,19 @@
 		3227FDCB258B084F00ED046A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3227FDCD258B084F00ED046A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3227FDCE258B084F00ED046A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3227FDE4258C3FDC00ED046A /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
+		3227FDE5258C3FDC00ED046A /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
+		3227FDE8258C3FE700ED046A /* CATransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransitionViewController.h; sourceTree = "<group>"; };
+		3227FDE9258C3FE700ED046A /* CAAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAnimationViewController.h; sourceTree = "<group>"; };
+		3227FDEA258C3FE800ED046A /* CAAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAAnimationViewController.m; sourceTree = "<group>"; };
+		3227FDEB258C3FE800ED046A /* CATransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransitionViewController.m; sourceTree = "<group>"; };
+		3227FDEC258C3FE800ED046A /* GJAnimationDemo.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = GJAnimationDemo.entitlements; sourceTree = "<group>"; };
+		3227FDEE258C3FE800ED046A /* GJAnimationDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GJAnimationDemo.xcdatamodel; sourceTree = "<group>"; };
+		3227FDF2258C3FF600ED046A /* NFCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFCManager.m; sourceTree = "<group>"; };
+		3227FDF3258C3FF600ED046A /* NFCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFCManager.h; sourceTree = "<group>"; };
+		3227FDF4258C3FF700ED046A /* NFCScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFCScanViewController.m; sourceTree = "<group>"; };
+		3227FDF5258C3FF700ED046A /* NFCScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFCScanViewController.h; sourceTree = "<group>"; };
+		3227FDF6258C3FF700ED046A /* NFCScanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NFCScanViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +82,19 @@
 		3227FDBB258B084A00ED046A /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				3227FDF3258C3FF600ED046A /* NFCManager.h */,
+				3227FDF2258C3FF600ED046A /* NFCManager.m */,
+				3227FDF5258C3FF700ED046A /* NFCScanViewController.h */,
+				3227FDF4258C3FF700ED046A /* NFCScanViewController.m */,
+				3227FDF6258C3FF700ED046A /* NFCScanViewController.xib */,
+				3227FDE9258C3FE700ED046A /* CAAnimationViewController.h */,
+				3227FDEA258C3FE800ED046A /* CAAnimationViewController.m */,
+				3227FDE8258C3FE700ED046A /* CATransitionViewController.h */,
+				3227FDEB258C3FE800ED046A /* CATransitionViewController.m */,
+				3227FDEC258C3FE800ED046A /* GJAnimationDemo.entitlements */,
+				3227FDED258C3FE800ED046A /* GJAnimationDemo.xcdatamodeld */,
+				3227FDE4258C3FDC00ED046A /* 01.jpg */,
+				3227FDE5258C3FDC00ED046A /* 02.jpg */,
 				3227FDBC258B084A00ED046A /* AppDelegate.h */,
 				3227FDBD258B084A00ED046A /* AppDelegate.m */,
 				3227FDBF258B084A00ED046A /* SceneDelegate.h */,
@@ -133,8 +167,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3227FDE7258C3FDC00ED046A /* 02.jpg in Resources */,
+				3227FDF9258C3FF700ED046A /* NFCScanViewController.xib in Resources */,
 				3227FDCC258B084F00ED046A /* LaunchScreen.storyboard in Resources */,
 				3227FDC9258B084F00ED046A /* Assets.xcassets in Resources */,
+				3227FDE6258C3FDC00ED046A /* 01.jpg in Resources */,
 				3227FDC7258B084A00ED046A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,9 +184,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3227FDC4258B084A00ED046A /* ViewController.m in Sources */,
+				3227FDF7258C3FF700ED046A /* NFCManager.m in Sources */,
+				3227FDEF258C3FE800ED046A /* CAAnimationViewController.m in Sources */,
+				3227FDF1258C3FE800ED046A /* GJAnimationDemo.xcdatamodeld in Sources */,
 				3227FDBE258B084A00ED046A /* AppDelegate.m in Sources */,
 				3227FDCF258B084F00ED046A /* main.m in Sources */,
 				3227FDC1258B084A00ED046A /* SceneDelegate.m in Sources */,
+				3227FDF8258C3FF700ED046A /* NFCScanViewController.m in Sources */,
+				3227FDF0258C3FE800ED046A /* CATransitionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +387,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3227FDED258C3FE800ED046A /* GJAnimationDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3227FDEE258C3FE800ED046A /* GJAnimationDemo.xcdatamodel */,
+			);
+			currentVersion = 3227FDEE258C3FE800ED046A /* GJAnimationDemo.xcdatamodel */;
+			path = GJAnimationDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3227FDB1258B084A00ED046A /* Project object */;
 }
